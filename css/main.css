@@ -254,6 +254,10 @@ aside {
   align-items: center;
 }
 
+.contact-content p {
+  margin: 0;
+}
+
 /* ==========================================================================
    FAQ Page
    ========================================================================== */
@@ -270,6 +274,14 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
 }
 
 
