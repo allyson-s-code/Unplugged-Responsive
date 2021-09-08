@@ -87,6 +87,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
 
 /*----------BASE HEADER AND FOOTER STYLES--------------*/
 
@@ -98,12 +103,22 @@ footer {
   flex-flow: row wrap;
 }
 
+header {
+  padding: 15px 0;
+}
 
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+.header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -111,11 +126,26 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+}
+
+footer {
+  flex-direction: column;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0px;
+}
+
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
@@ -131,6 +161,13 @@ footer .social-icons p {
   align-items: center;
 }
 
+footer p {
+  margin: 0;
+}
+
+footer .copyright {
+  margin: 20px 0;
+}
 
 /*----------MOBILE STYLES HOME PAGE--------------*/
 
@@ -159,12 +196,24 @@ aside {
   justify-content: center;
   flex-flow: row wrap;
 }
+.features h2 {
+  margin-bottom: 60px;
+}
+
+.features article {
+  width: 63%;
+  margin: 30px 0;
+}
 
 .features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.features p {
+  margin: 0;
 }
 
 /*REVIEWS*/
@@ -174,6 +223,18 @@ aside {
   justify-content: center;
   flex-flow: row wrap;
 }
+
+.reviews h2 {
+  margin-bottom: 25px;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0px;
+}
+
+
+
 
 /* ==========================================================================
    About Page
