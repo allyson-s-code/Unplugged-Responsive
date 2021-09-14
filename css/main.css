@@ -539,7 +539,7 @@ header figure {
 }
 
 header nav {
-  width: 20%;
+  width: 30%;
 }
 
 header nav ul {
@@ -727,6 +727,12 @@ h4 {
 p {
   font-size: 1.125em;
   line-height: 1.333;
+}
+
+/* Header */
+
+header nav {
+  width: 20%;
 }
 
 
