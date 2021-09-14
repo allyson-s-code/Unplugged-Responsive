@@ -140,6 +140,14 @@ address {
   margin: 50px 0;
 }
 
+img { 
+	width: 100%;
+}
+ 
+figure {
+  margin: 0;
+}
+
 
 /*----------BASE HEADER AND FOOTER STYLES--------------*/
 
@@ -156,12 +164,21 @@ header {
   padding: 15px 0;
 }
 
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -236,7 +253,9 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-
+  background: url('../img/hero-image.jpg') center no-repeat #333;
+  background-size: cover;
+  min-height: 500px;
 }
 
 .hero-area h1 {
@@ -289,7 +308,10 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/features-background.jpg') center no-repeat #333;
+  background-size: cover;
 }
+
 .features h2 {
   margin-bottom: 60px;
 }
@@ -512,6 +534,10 @@ header .content-wrapper {
 }
 
 
+header figure {
+  width: 30%;
+}
+
 header nav {
   width: 20%;
 }
@@ -525,6 +551,11 @@ header nav ul {
 }
 
 /* Hero Area */
+
+.hero-area {
+  min-height: 600px;
+}
+
 
 .hero-area h1 {
   font-size: 3em;
@@ -572,9 +603,11 @@ aside .content-wrapper .form {
   justify-content: space-between;
 }
 
+.reviews article figure,
 .reviews article div {
     width: 49%;         
 }
+
 
 .reviews h2 {
   width: 85%;
@@ -696,9 +729,11 @@ p {
   line-height: 1.333;
 }
 
+
 /* Hero */
+
 .hero-area h1 {
-  width: 60%;
+  width: 75%;
   font-size: 3.75em;
 }
 
@@ -714,6 +749,8 @@ aside .content-wrapper .form {
 }
 
 /* Features */
+
+
 .features h2 {
   width: 90%;
 }
@@ -726,16 +763,6 @@ aside .content-wrapper .form {
 /* Reviews */
 .reviews h2 {
   margin-bottom: 50px;
-}
-
-.reviews h3 {
-  font-size: 1.875em;
-  line-height: 2.25;
-}
-
-.reviews p {
-  font-size: 1.125em;
-  line-height: 1.5;
 }
 
 .reviews article div {
