@@ -328,6 +328,11 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features p {
   margin: 0;
   text-align: center;
@@ -815,7 +820,7 @@ footer h4 {
   .map figure {
     padding-bottom: 37.5%;
   }
-  
+
   .contact-content h4 {
     font-size: 1.875em;
   }
